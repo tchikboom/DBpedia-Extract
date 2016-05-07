@@ -60,7 +60,7 @@ while (my $classline = <CLASSLISTE>)
 print "Quelle catégorie d'entités voulez-vous récupérer ?\n";
 my $query = selectionclass();
 print "Veuillez patienter...\n";
-system("python sparql.py \"$query\"");
+system("python SPARQLWrapper.py \"$query\"");
 transfoxml("outputpython.txt");
 system ("sed -i 's/&/&amp;/g' out.xml ");
 print "Le fichier $outputfile est prêt.\n" ;
