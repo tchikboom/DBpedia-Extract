@@ -25,4 +25,6 @@ Exécute des requêtes SPARQL sur l'endpoint SPARQL fr.dbpedia.org et enregistre
 
 `perl DBpediaExtractor.pl -o rivières.xml` : Imprime les résultats dans le fichier "rivières.xml".
 ## Auteurs
-Zakarya Després, Loïc Galand, Justine Mouveaux, Renise Pierre, Mathilde Poulain et Léon-Paul Schaub, tous étudiants en TAL à l'INALCO.
+DBpediaExtractor a été écrit par Zakarya Després, Loïc Galand, Justine Mouveaux, Renise Pierre, Mathilde Poulain et Léon-Paul Schaub, tous étudiants en TAL à l'INALCO.
+
+[SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/) a été écrit par Sergio Fernández, Carlos Tejo, Ivan Herman et Alexey Zakhlestin.
