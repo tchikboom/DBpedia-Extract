@@ -4,7 +4,7 @@
 `perl DBpediaExtractor.pl [OPTIONS]...`
 
 ##Description
-EXtrait des entités nommées dans toutes les langues disponibles à partir de l'endpoint SPARQL fr.dbpedia.org/sparql.
+Extrait des entités nommées dans toutes les langues disponibles à partir de l'endpoint SPARQL fr.dbpedia.org/sparql.
 ##Options
 #####--install
   Installe SPARQLWrapper, dépendance nécessaire au bon fonctionnement du programme.
