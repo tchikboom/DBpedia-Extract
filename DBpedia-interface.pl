@@ -66,7 +66,7 @@ my $window = Gtk2::Dialog->new('Quelle catégorie d\'entitées voulez-vous récu
             undef,
             [qw/modal destroy-with-parent/],
             'gtk-undo'     => 'reject',
-			'gtk-save'     => 'accept',
+	    'gtk-save'     => 'accept',
 );
 
 $window->set_response_sensitive ('reject', FALSE);
@@ -154,7 +154,7 @@ sub get_init_val
 	return $init_val;
 }
 
-# Boîte de dialoque pour les messages d'erreur et d'information pour l'utilisateur.
+# Boîte de dialogue pour les messages d'erreur et d'information pour l'utilisateur.
 sub show_message_dialog 
 {
 	my ($parent,$icon,$text) = @_;
@@ -216,9 +216,9 @@ sub transfoxml
 			}
 			else
 			{
-				foreach my $l (@tablangues)
+				foreach my $codeiso (@tablangues)
 				{
-					if ($langue eq $l)
+					if ($langue eq $codeiso)
 					{
 						print OUT "\t\t\t<traduction lang=\"$langue\">".$traduction."<\/traduction>\n";
 					}
