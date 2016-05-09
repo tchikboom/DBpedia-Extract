@@ -4,8 +4,7 @@
 `perl DBpediaExtractor.pl [OPTIONS]...`
 
 ##Description
-Exécute des requêtes SPARQL sur l'endpoint SPARQL fr.dbpedia.org et enregistre les résultats au format XML.
-
+EXtrait des entités nommées dans toutes les langues disponibles à partir de l'endpoint SPARQL fr.dbpedia.org/sparql.
 ##Options
 #####--install
   Installe SPARQLWrapper, dépendance nécessaire au bon fonctionnement du programme.
