@@ -121,7 +121,7 @@ sub fill_dialog
 			$class = lc($class);
 			if (exists $classliste{$class})
 			{
-				my $query = "select ?entite ?nomInternational where {?entite rdf:type dbpedia-owl:".$classliste{$class}.". ?entite owl:sameAs ?nomInternational";
+				my $query = "select ?entite ?nomInternational where {?entite rdf:type dbpedia-owl:".$classliste{$class}.". ?entite owl:sameAs ?nomInternational}";
 				print "Veuillez patienter...\n";
 				system("python renom.py \"$query\"");
 				transfoxml("outputpython.txt");
