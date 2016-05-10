@@ -22,8 +22,8 @@ Taper dans la fenêtre demandant les langues choisies :
 `fr,nl,de` : Ne récupère que les résultats pour le français, le néerlandais et l'allemand.
 
 ## Auteurs
-DBpediaExtractor a été écrit par Zakarya Després, Loïc Galand, Justine Mouveaux, Renise Pierre, Mathilde Poulain et Léon-Paul Schaub, tous étudiants en TAL à l'INALCO.
+DBpediaExtractor a été écrit par Zakarya Després, Loïc Galand, Justine Mouveaux, Mathilde Poulain et Léon-Paul Schaub, tous étudiants en TAL à l'INALCO.
 
 [SPARQLWrapper](https://rdflib.github.io/sparqlwrapper/) a été écrit par Sergio Fernández, Carlos Tejo, Ivan Herman et Alexey Zakhlestin.
 
-Interface graphique réalisée à partir (et avec l'aide) du site  : http://gtk2-perl.sourceforge.net/
+Interface graphique réalisée à partir (et avec l'aide) du site : http://gtk2-perl.sourceforge.net/
