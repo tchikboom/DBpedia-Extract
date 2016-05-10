@@ -43,7 +43,7 @@ while (my $classline = <CLASSLISTE>)
 use Glib qw/TRUE FALSE/;
 use Gtk2 'init';
 
-my $window = Gtk2::Dialog->new('Quelle catégorie d\'entitées voulez-vous récupérer ?',
+my $window = Gtk2::Dialog->new('Quelle catégorie d\'entités voulez-vous récupérer ?',
             undef,
             [qw/modal destroy-with-parent/],
             'gtk-undo'     => 'reject',
