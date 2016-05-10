@@ -10,7 +10,7 @@ my $man = "";
 my $outputfile = "";
 my @tablangues = "";
 my $langues="";
-GetOptions('install' => \$install;
+GetOptions('install' => \$install);
 
 if ($man eq 1)
 {
