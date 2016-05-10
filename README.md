@@ -2,6 +2,8 @@
 
 ##Synopsis
 `perl DBpediaExtractor.pl`
+Sur Linux : Lancer DBpediaExtractor_Linux
+Sur Mac : Lancer DBpediaExtractor_Max.app (ne fonctionne que sur les versions précédant MacOSX 10.5 exclue.
 
 ##Description
 DBExtractor est un programme avec une interface graphique permettant d'extraire des entités nommées dans toutes les langues disponibles à partir de l'endpoint SPARQL fr.dbpedia.org/sparql.
